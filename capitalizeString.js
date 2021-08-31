@@ -7,12 +7,8 @@
 // Stub: function capitilizeString() {}
 // Unit tests are written in capitalizeString.test.js
 // Template: function capitalizeString(x) {(...x)}
-// Templatete: function capitallizeString([first, ...rest]) {return [first.toUpperCase(), ...rest].join("")};
+// function capitallizeString([first, ...rest]) {return [first.toUpperCase(), ...rest].join("")};
 
-// const capitalizeString = ([a, ...b]) => [a.toUpperCase(), ...b.toLowerCase()].join('') 
-const capitalizeString = (a) => {
-  return a.charAt(0).toUpperCase() + a.slice(1).toLowerCase();
-}
-
+ const capitalizeString = ([first, ...rest]) => first.toUpperCase() + rest.join('').toLowerCase();
 
 module.exports = capitalizeString;
