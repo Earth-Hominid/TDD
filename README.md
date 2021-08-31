@@ -1,8 +1,6 @@
 # Test Driven Development
 
-This project is dedicated to practicising TDD. Jest is utilzed for the automated tests.
-
-[link to The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/testing-basics)
+This project is dedicated to practicising TDD. Jest is utilzed for the automated tests. This project is part of **The Odin Project Full Stack [Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/testing-basics)**
 
 ## Description
 
@@ -30,10 +28,8 @@ Data design is composed of the following steps:
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Earth Hominid 
-ex. [GitHub](https://github.com/Earth-Hominid)
+Earth Hominid 
+[GitHub](https://github.com/Earth-Hominid)
 
 ## License
 
