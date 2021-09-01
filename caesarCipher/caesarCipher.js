@@ -25,7 +25,7 @@ const caesarCipher = (string, key) => {
 
   // handles if the key value is a negative number
   const handleNegativeKey = key < 0 ? (key += 26) : key;
-  
+
   return string.replace(matchingRegex, (character) => {
     let lowerCaseChar = character.toLowerCase();
     let newCharacter = String.fromCharCode(

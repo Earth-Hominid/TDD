@@ -11,18 +11,19 @@ test('abc with key=1 to equal bcd', () => {
 });
 
 test('ABC with key=1 to equal YZA', () => {
-  expect(caesarCipher('XYZ',1)).toBe('YZA')
-})
+  expect(caesarCipher('XYZ', 1)).toBe('YZA');
+});
 
 test('attack at midnight with key = -10', () => {
-  expect(caesarCipher('attack at midnight', -10)).toBe('qjjqsa qj cytdywxj')
-})
+  expect(caesarCipher('attack at midnight', -10)).toBe('qjjqsa qj cytdywxj');
+});
 
 test('Turn the lock 3 times! with key=1', () => {
-  expect(caesarCipher('Turn the lock 3 times!', 1)).toBe('Uvso uif mpdl 3 ujnft!')
-})
+  expect(caesarCipher('Turn the lock 3 times!', 1)).toBe(
+    'Uvso uif mpdl 3 ujnft!'
+  );
+});
 
 test('abc with key=0 to be abc', () => {
-  expect(caesarCipher('abc', 0)).toBe('abc')
-})
-
+  expect(caesarCipher('abc', 0)).toBe('abc');
+});
