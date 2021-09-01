@@ -36,6 +36,6 @@ const caeser = (string, key) => {
     newString === plaintext
   }
   
-  return string.replace(/[a-z]/gi, (character) => String.fromCharCode((character.charCodeAt(0) + shift) % 26));
+  return string.replace(matchingRegex, (character) => String.fromCharCode((character.charCodeAt(0) + key) % 26));
 }
 
