@@ -12,3 +12,9 @@ test('abc with key=1 to equal bcd', () => {
 test('XYZ with key=1 to equal YZA', () => {
   expect(caesarCipher('XYZ')).toBe('YZA')
 })
+
+test('attack at midnight with key = -10', () => {
+  expect(caesarCipher('attack at midnight', -10)).toBe('')
+})
+
+
