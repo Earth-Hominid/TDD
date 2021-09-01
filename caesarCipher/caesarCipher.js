@@ -19,19 +19,23 @@
 // template: const caesarCipher = () => { ... a; return string } 
 
 
-const plaintext;
+const string;
 const key;
 const value = key % 26
 let matchingRegex = /[a-z]/gi
 
 const caeser = (string, key) => {
+  // handles if the key value equals 0 
   if (key === 0) return string;
+  // handles if the key value is a negative number
   if (key < 0) return key += 26;
-  
-  if(regex.test(plaintext[i] === false)) {
+  // key value has to be a number
+  if (key === NaN) return string
+
+  if(matchingRegex.test(plaintext[i] === false)) {
     newString === plaintext
   }
-
-  return string.replace(/[a-z]/gi, character) => String.fromCharCode(character.charCodeAt)
+  
+  return string.replace(/[a-z]/gi, (character) => String.fromCharCode((character.charCodeAt(0) + shift) % 26));
 }
 

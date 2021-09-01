@@ -41,3 +41,12 @@ This project is licensed under the [MIT] License - see the LICENSE.md file for d
 
 * [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/testing-practice)
 * [UBC Systematic Program Design](https://edge.edx.org/courses/course-v1:UBC+CPSC110+2017S/77860a93562d40bda45e452ea064998b/)
+
+### Caesar Cipher Sources
+
+* [Regex - freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-letters-of-the-alphabet)
+*[String.fromCharCode()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
+* [charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
+* [replace()](https://www.w3schools.com/js/js_regexp.asp)
+
+
