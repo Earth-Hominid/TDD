@@ -1,8 +1,10 @@
 // Caesar Cipher
-// "A type of substitution cipher in which each letter in the plaintext is 'shifted' a certain number of places down the alphabet. For example, with a shift of 1, A would be replaced by B, B would become C, and so on."
+// "A type of substitution cipher in which each letter in the plaintext is 'shifted' a
+// certain number of places down the alphabet. For example, with a shift of 1, A would be
+// replaced by B, B would become C, and so on."
 
 // signature: string -> string
-// purpose: produces string in which each plaintext letter, is substituted with the cipher text letter
+// purpose: produces string inwhich each character is substituted with the cipher charcter
 
 // define examples-test
 // (expect (function ("abc" with key=2001) "bcd" ) test four digit number
@@ -18,9 +20,9 @@
 
 // template: const caesarCipher = () => { ... a; return string }
 
-let matchingRegex = /[a-z]/gi;
-
 const caesarCipher = (string, key) => {
+  let matchingRegex = /[a-zA-z]/gi;
+
   // handles if the key value equals 0
   if (key === 0) return string;
   // handles if the key value is a negative number
@@ -28,10 +30,14 @@ const caesarCipher = (string, key) => {
   // key value has to be a number
   if (key === NaN) return string;
   return string.replace(matchingRegex, (character) => {
+    let lowerCaseChar = character.toLowerCase();
     let newCharacter = String.fromCharCode(
-      (character.charCodeAt(0) + key - 97) % (26) + 97
+      ((lowerCaseChar.charCodeAt(0) + key - 97) % 26) + 97
     );
-    return newCharacter;
+    return character === character.toUpperCase()
+      ? newCharacter.toUpperCase()
+      : newCharacter;
   });
 };
+
 module.exports = caesarCipher;
