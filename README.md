@@ -6,6 +6,8 @@ This project is dedicated to practicising TDD. Jest is utilzed for the automated
 
 The concept of TDD is extremely important in modern programming. This repository holds problems, solutions and tests I wrote to practise the TDD skill set. 
 
+Individual unit tests are designed utilizing Jest. 
+
 Programs are designed using design recipes from UBC's  Systematic Program Design [course](https://edge.edx.org/courses/course-v1:UBC+CPSC110+2017S/77860a93562d40bda45e452ea064998b/). 
 
 Function design is composed of five steps:
