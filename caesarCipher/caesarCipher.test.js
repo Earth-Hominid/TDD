@@ -14,7 +14,7 @@ test('XYZ with key=1 to equal YZA', () => {
 })
 
 test('attack at midnight with key = -10', () => {
-  expect(caesarCipher('attack at midnight', 10)).toBe('kddkmu kd wsnxsqrd')
+  expect(caesarCipher('attack at midnight', -10)).toBe('kddkmu kd wsnxsqrd')
 })
 
 test('Turn the lock 3 times! with key=1 to equal', () => {
