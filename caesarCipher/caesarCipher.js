@@ -18,6 +18,7 @@
 
 // template: const caesarCipher = () => { ... a; return string } 
 
+
 const plaintext;
 const key;
 const value = key % 26
@@ -25,13 +26,12 @@ let matchingRegex = /[a-z]/gi
 
 const caeser = (string, key) => {
   if (key === 0) return string;
-  if (key < 0) {
-    key += 26
-  }
+  if (key < 0) return key += 26;
+  
   if(regex.test(plaintext[i] === false)) {
     newString === plaintext
   }
 
-  return string.replace(/[a-z]/gi, character) => String.fromCharCode()
+  return string.replace(/[a-z]/gi, character) => String.fromCharCode(character.charCodeAt)
 }
 
