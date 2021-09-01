@@ -23,16 +23,13 @@
 const caesarCipher = (string, key) => {
   let matchingRegex = /[a-zA-z]/gi;
 
-  // handles if the key value equals 0
-  if (key === 0) return string;
   // handles if the key value is a negative number
-  if (key < 0) return (key += 26);
-  // key value has to be a number
-  if (key === NaN) return string;
+  const handleNegativeKey = key < 0 ? (key += 26) : key;
+  
   return string.replace(matchingRegex, (character) => {
     let lowerCaseChar = character.toLowerCase();
     let newCharacter = String.fromCharCode(
-      ((lowerCaseChar.charCodeAt(0) + key - 97) % 26) + 97
+      ((lowerCaseChar.charCodeAt(0) + handleNegativeKey - 97) % 26) + 97
     );
     return character === character.toUpperCase()
       ? newCharacter.toUpperCase()
