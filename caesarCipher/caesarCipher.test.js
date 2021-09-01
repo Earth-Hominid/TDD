@@ -17,4 +17,8 @@ test('attack at midnight with key = -10', () => {
   expect(caesarCipher('attack at midnight', -10)).toBe('')
 })
 
+test('Turn the lock 3 times! with key=1 to equal', () => {
+  expect(caesarCipher('attack at midnight', -10)).toBe('Uvso uif mpdl 3 ujnft!')
+})
+
 
