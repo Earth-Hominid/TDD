@@ -7,10 +7,21 @@
 // (array [x,y,z])
 // Array is (make-object Number Number)
 // perform calculations on array
-// (define (fn-for-array))
-// (... (define average value) ; Number
-// (... (define maximum value) ; Number
-// (... (define minimum value) ; Number
-// (... (define length value)) ; Number
-// Template rules used:
-//  - compound: 4 fields
+// (define (fn-for-array x))
+// (... x (define average value) ; Number
+// (... x (define maximum value) ; Number
+// (... x (define minimum value) ; Number
+// (... x (define length value)) ; Number
+
+arrayObject = [1,1,1,1]
+
+const analyze = () => {
+  
+}
+
+
+
+
+
+
+module.exports = analyze;
