@@ -16,12 +16,9 @@
 arrayObject = [1,1,1,1]
 
 const analyze = () => {
-  
+  const arrayLength =  arrayObject.length
+  let object = { length: arrayLength }
+  return object
 }
-
-
-
-
-
 
 module.exports = analyze;
