@@ -16,8 +16,18 @@
 arrayObject = [1,1,1,1]
 
 const analyze = () => {
+  // Determine total number of entries in array:
   const arrayLength =  arrayObject.length
-  let object = { length: arrayLength }
+  // // Function adding two array numbers together
+  const addition = (sum, arrayObject) => sum + arrayObject
+  // Use reduce (which is a method on array object) like we would a for loop 
+  const totalSum = arrayObject.reduce(addition, 0)
+  // Calculate average
+  const average = totalSum / arrayLength
+
+  let object = { 
+    length: arrayLength,
+    average: average}
   return object
 }
 
