@@ -13,8 +13,6 @@
 // (... x (define minimum value) ; Number
 // (... x (define length value)) ; Number
 
-
-
 const analyze = (arrayObject) => {
   // Determine total number of entries in array:
   const arrayLength = arrayObject.length;
