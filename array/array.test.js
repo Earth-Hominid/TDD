@@ -1,5 +1,5 @@
-const computationObject = require('./computationObject');
+const analyze= require('./array');
 
-test('', () => {
-  expect(()).toBe();
+test('length of array equals 4', () => {
+  expect(analyze(arrayObject.length)).toBe(4);
 });
