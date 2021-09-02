@@ -49,4 +49,7 @@ This project is licensed under the [MIT] License - see the LICENSE.md file for d
 * [charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 * [replace()](https://www.w3schools.com/js/js_regexp.asp)
 
+### Array Analysis
 
+* [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+* [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
