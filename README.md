@@ -4,7 +4,7 @@ This project is dedicated to practicising TDD. Jest is utilzed for the automated
 
 ## Description
 
-The concept of TDD is extremely important in modern programming. This repository holds problems, solutions and tests I wrote to practise the TDD skill set. 
+The concept of TDD is extremely important in modern programming. This repository holds problems, solutions and unit tests I wrote to practise the TDD skill set. 
 
 Individual unit tests are designed utilizing Jest. 
 
