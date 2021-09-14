@@ -25,7 +25,7 @@ Data design is composed of the following steps:
 5. A template for one argument function operating on data of this type.
 
 ### Technology
-* Vanilla JavaScript
+* ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 * Jest
 
 ## Authors
