@@ -26,7 +26,8 @@ Data design is composed of the following steps:
 
 ### Technology
 * ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-* Jest
+* [![jest](./src/jest_1.svg)](https://badges.aleen42.com/src/jest_1.svg)
+
 
 ## Authors
 
