@@ -1,6 +1,6 @@
 # Test Driven Development
 
-* ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) * ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)   ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
 
 This project is dedicated to practising TDD. Jest is utilized for the automated tests. This project is part of **The Odin Project Full Stack [Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/testing-basics)**
